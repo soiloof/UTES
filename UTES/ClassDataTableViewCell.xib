@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailCell" rowHeight="70" id="tom-s1-MuW" customClass="ClassDataTableViewCell" customModule="UTES" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tom-s1-MuW" id="6BG-Ed-gr1">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="講師名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HwH-4l-YgQ">
+                        <rect key="frame" x="85" y="0.0" width="30" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="OmY-2H-Sw1"/>
+                            <constraint firstAttribute="height" constant="70" id="dXk-qX-FYm"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="7"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="単" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QAY-mm-89L">
+                        <rect key="frame" x="195" y="0.0" width="35" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="2vo-i7-MRO"/>
+                            <constraint firstAttribute="height" constant="70" id="gJP-2Y-HEA"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="得" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3oS-Wr-sdv">
+                        <rect key="frame" x="230" y="0.0" width="40" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="9WX-xb-Dgq"/>
+                            <constraint firstAttribute="width" constant="40" id="erA-bI-3xh"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="授業名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eeF-wq-LFP">
+                        <rect key="frame" x="0.0" y="0.0" width="85" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="2je-Yr-OC3"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="系列" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oXR-cH-eH5">
+                        <rect key="frame" x="145" y="0.0" width="50" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="MUB-5I-9Sg"/>
+                            <constraint firstAttribute="width" constant="50" id="zHh-a9-8a2"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="時期" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qND-Sr-bID">
+                        <rect key="frame" x="115" y="0.0" width="30" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="Vo8-vS-TOM"/>
+                            <constraint firstAttribute="width" constant="30" id="lPW-7h-YG7"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="形式" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j3E-Ug-XpR">
+                        <rect key="frame" x="270" y="0.0" width="50" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="IpT-1Q-NW8"/>
+                            <constraint firstAttribute="width" constant="50" id="xTB-gi-Clv"/>
+                        </constraints>
+                        <color key="textColor" red="1" green="0.15600116550000001" blue="0.1149528953" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oXR-cH-eH5" firstAttribute="leading" secondItem="qND-Sr-bID" secondAttribute="trailing" id="0S3-G5-avs"/>
+                    <constraint firstItem="j3E-Ug-XpR" firstAttribute="leading" secondItem="3oS-Wr-sdv" secondAttribute="trailing" id="2hh-yp-DEB"/>
+                    <constraint firstItem="eeF-wq-LFP" firstAttribute="leading" secondItem="6BG-Ed-gr1" secondAttribute="leading" id="2wJ-sj-ngH"/>
+                    <constraint firstAttribute="trailing" secondItem="j3E-Ug-XpR" secondAttribute="trailing" id="3de-BK-lsJ"/>
+                    <constraint firstItem="eeF-wq-LFP" firstAttribute="top" secondItem="6BG-Ed-gr1" secondAttribute="top" id="7E9-pV-15z"/>
+                    <constraint firstItem="HwH-4l-YgQ" firstAttribute="top" secondItem="6BG-Ed-gr1" secondAttribute="top" id="7bN-ts-bIh"/>
+                    <constraint firstItem="HwH-4l-YgQ" firstAttribute="leading" secondItem="eeF-wq-LFP" secondAttribute="trailing" id="RQO-SR-NOo"/>
+                    <constraint firstItem="QAY-mm-89L" firstAttribute="leading" secondItem="oXR-cH-eH5" secondAttribute="trailing" id="THa-VO-7AL"/>
+                    <constraint firstItem="qND-Sr-bID" firstAttribute="top" secondItem="6BG-Ed-gr1" secondAttribute="top" id="UuF-Mm-1jC"/>
+                    <constraint firstItem="QAY-mm-89L" firstAttribute="top" secondItem="6BG-Ed-gr1" secondAttribute="top" id="e8i-AU-sIo"/>
+                    <constraint firstItem="3oS-Wr-sdv" firstAttribute="top" secondItem="6BG-Ed-gr1" secondAttribute="top" id="kcA-Rv-lqa"/>
+                    <constraint firstItem="j3E-Ug-XpR" firstAttribute="top" secondItem="6BG-Ed-gr1" secondAttribute="top" id="q37-vZ-W35"/>
+                    <constraint firstItem="oXR-cH-eH5" firstAttribute="top" secondItem="6BG-Ed-gr1" secondAttribute="top" id="tFf-np-m3X"/>
+                    <constraint firstItem="qND-Sr-bID" firstAttribute="leading" secondItem="HwH-4l-YgQ" secondAttribute="trailing" id="tOz-X6-hKf"/>
+                    <constraint firstItem="3oS-Wr-sdv" firstAttribute="leading" secondItem="QAY-mm-89L" secondAttribute="trailing" id="trb-Dd-sll"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="ONV-wU-GOd"/>
+            <connections>
+                <outlet property="classTimeInfoTextField1" destination="qND-Sr-bID" id="P9Q-Cy-3gt"/>
+                <outlet property="classnameTextField" destination="eeF-wq-LFP" id="O4E-SC-wWt"/>
+                <outlet property="classtypeTextField" destination="oXR-cH-eH5" id="h4P-RK-m7a"/>
+                <outlet property="creditnumberTextField" destination="QAY-mm-89L" id="wPd-eU-zAd"/>
+                <outlet property="scoreTextField" destination="3oS-Wr-sdv" id="6Os-WA-cMK"/>
+                <outlet property="scoretypeTextField" destination="j3E-Ug-XpR" id="157-Ma-pfd"/>
+                <outlet property="teachernameTextField" destination="HwH-4l-YgQ" id="iEx-gc-6g9"/>
+            </connections>
+            <point key="canvasLocation" x="-35" y="-11"/>
+        </tableViewCell>
+    </objects>
+</document>
